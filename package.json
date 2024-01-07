@@ -1,0 +1,27 @@
+{
+  "name": "Clean-Code-Architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.3.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.9",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
